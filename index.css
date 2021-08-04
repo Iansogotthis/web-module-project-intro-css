@@ -138,6 +138,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Roboto Mono", monospace;
   line-height: 1.5;
   color: darkslategrey;
 }
@@ -146,6 +147,7 @@ section {
 }
 a {
   text-decoration: none;
+  font-family: "Roboto Mono", monospace;
 }
 /*Header Section Styles*/
 header {
@@ -162,6 +164,9 @@ nav a {
   text-align: center;
   color: white;
 }
+h1 {
+  font-family: "Chelsea Market", cursive;
+}
 /*header classes*/
 .orange {
   background-color: #ff764e;
@@ -173,5 +178,11 @@ nav a {
 }
 .yellow {
   background-color: #ffcd69;
+
   margin-right: 10%;
+}
+
+.left img {
+  width: 20%;
+  border-radius: 50%;
 }
