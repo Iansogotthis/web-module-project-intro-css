@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*universal selector*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
+
+/*  general stylings */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
+  color: darkslategrey;
+}
+section {
+  padding: 1% 0;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+}
+/*Header Section Styles*/
+header {
+  padding: 0;
+}
+nav {
+  padding: 2% 0;
+}
+nav a {
+  display: inline-block;
+  padding: 0.2% 0;
+  width: 10%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 300%;
+}
+/*header classes*/
+.orange {
+  background-color: #ff764e;
+  margin-left: 10%;
+}
+.blue {
+  background-color: #5ed3eb;
+  margin: 0 24%;
+}
+.yellow {
+  background-color: #ffcd69;
+
+  margin-right: 10%;
+}
+.top {
+  position: relative;
+}
+
+.left,
+.right {
+  text-align: center;
+  display: inline-block;
+}
+
+.left {
+  width: 35%;
+}
+
+.left img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.right {
+  position: absolute;
+  width: 60%;
+  top: 45%;
+}
+.midway {
+  margin-left: 15%;
+  margin-right: 15%;
+  background: #ddb9a3;
+  text-align: center;
+  color: white;
+}
+.gallery,
+.one,
+.two {
+  text-align: center;
+}
+.gallery,
+.fire,
+.flame {
+  width: 25%;
+  margin: auto;
+}
+.mountains img {
+  width: 200px;
+
+  padding: 100px;
+}
