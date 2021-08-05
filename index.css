@@ -166,6 +166,7 @@ nav a {
 }
 h1 {
   font-family: "Chelsea Market", cursive;
+  font-size: 300%;
 }
 /*header classes*/
 .orange {
@@ -204,4 +205,27 @@ h1 {
   position: absolute;
   width: 60%;
   top: 45%;
+}
+.midway {
+  margin-left: 15%;
+  margin-right: 15%;
+  background: #ddb9a3;
+  text-align: center;
+  color: white;
+}
+.gallery,
+.one,
+.two {
+  text-align: center;
+}
+.gallery,
+.fire,
+.flame {
+  width: 25%;
+  margin: auto;
+}
+.mountains img {
+  width: 200px;
+
+  padding: 100px;
 }
